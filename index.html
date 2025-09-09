@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reforço POO</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form action = 'processa.php' method = 'post'>
+        <div class="formu">
+        <h1>Mundo Geek</h1>
+        <input type="text" name ="name" placeholder="Nome"required>
+        <input type="email" name="email" placeholder="Email"required>
+        <input type="text" name ="jogo" placeholder="Jogo Favorito"required>
+        <input type="text" name ="filme" placeholder="Filme Favorito"required>
+        <input type="text" name ="livro" placeholder="Livro Favorito"required>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
