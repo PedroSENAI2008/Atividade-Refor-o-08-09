@@ -45,7 +45,7 @@ $filmes = [
     "O Poderoso Chefão",
     "Pantera Negra"
 ];
-echo "<div style='font-family: Arial; background:#111; color:#eee; padding:20px; border-radius:10px; width:500px; margin:50px auto;'>";
+echo "<div style='font-family: Arial; background: rgb(59, 51, 83);; color:#fff; padding:20px; border-radius:10px; width:500px; margin:50px auto;'>";
 echo $usuario->exibirDados(); // mensagem de boas-vindas
 echo $usuario->Disponibilidade($livros, $filmes, $games); // disponibilidade no catálogo
 echo "</div>";

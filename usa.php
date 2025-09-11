@@ -13,11 +13,7 @@ class Usuario {
         $this->filme = $filme;
         $this->livro = $livro;
     }   
-    public function Disponibilidade($livros, $filmes, $jogos){
-        $msg = "<h3>Disponibilidade no Catálogo:</h3>";
-
-        return $msg;
-    }
+    // Método removido pois está duplicado abaixo com implementação completa
      public function exibirDados() {
         return "<h2>Bem-vindo ao Mundo Geek, {$this->name}!</h2>
                 <p>Você é fã de <strong>{$this->jogo}</strong>, 
